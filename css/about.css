@@ -52,7 +52,6 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    /* border:1px solid grey;  */
 }
 
 html, body {
@@ -77,11 +76,37 @@ a{
 }
 
 nav{
-    display:flex;
-    /* justify-content:space-evenly; */
-    width:100%;
-    margin:0%;
-    color:black;
+    /* display:flex;
+    justify-content:space-between;
+    /* width:100%; */
+    /* margin:10%; */
+    /* color:black;
     padding-bottom: 4%;
-    padding-top: 4%;
+    padding-top: 4%; */
+}
+.main-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-container{
+    padding:1%;
+    display:flex;
+    flex-direction: column;
+}
+button{
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding:1%;
+}
+.box-content{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+.bottom-text-container{
+    padding:1%;
 }
