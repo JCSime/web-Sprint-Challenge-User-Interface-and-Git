@@ -108,7 +108,10 @@ nav{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.button{
+.learn_more{
+    display:block;
+    padding:.5rem;
+    border:.1rem solid black;
 }
 .box{
     display:flex;
@@ -122,6 +125,7 @@ nav{
     width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom:1rem;
 }
 .bottom-text-container{
     padding:1%;
